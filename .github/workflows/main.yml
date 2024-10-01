@@ -1,7 +1,7 @@
 name: sixtt
 on:
   schedule:
-    - cron: '35 */2 * * *' # Run every day at midnight
+    - cron: '36 */2 * * *' # Run every day at midnight
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
